@@ -10,7 +10,7 @@
 
 require "open-uri"
 require "nokogiri"
-require 'pry-byebug'
+# require 'pry-byebug'
 
 def trim(object)
   return object.select { |c| c.class == Nokogiri::XML::Element }
