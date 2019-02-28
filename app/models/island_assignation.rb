@@ -1,0 +1,2 @@
+class IslandAssignation < ApplicationRecord
+end

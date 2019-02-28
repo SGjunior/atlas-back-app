@@ -4,10 +4,12 @@ ruby '2.4.4'
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+# gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'puma'
 gem 'rails', '5.2.1'
 gem 'redis'
+gem 'rack-cors', require: 'rack/cors' # REVIEW => CORS HEADERS /ALLOW-SAME-ORIGIN /config.middleware.insert_before in config/application.rb
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
